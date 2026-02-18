@@ -28,4 +28,7 @@ Development steps:
 - Building Container
 - Setup AWS Code Build to ECR to AWS App Runner Continuous Delivery
 
-Issues encountered
+Issues encountered:
+- pylint caught unused imports :
+<img width="1341" height="508" alt="Bildschirmfoto vom 2026-02-18 14-43-02" src="https://github.com/user-attachments/assets/eceba520-2747-4b55-9f41-572fbd43dde2" />
+
