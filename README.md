@@ -3,6 +3,7 @@ devops-project-1: Wikipedia web api.
 
 badges:
 [![Wiki web API with Github Actions](https://github.com/brunel237/wiki-api/actions/workflows/devops.yml/badge.svg)](https://github.com/brunel237/wiki-api/actions/workflows/devops.yml)
+[![Wiki web API AWS Codebuild] (https://codebuild.eu-north-1.amazonaws.com/badges?uuid=eyJlbmNyeXB0ZWREYXRhIjoieVA5U0FWbFVEcllWZm1MNUMzOTFtdGNITEpZQ0ZxbGU4WG52UFBpZ1JBbUg5cTFlNlFTckIzbHJUWm9wQjRBbzZybjRueWtjU3lzbWI4d2VMOTRNM0VnPSIsIml2UGFyYW1ldGVyU3BlYyI6IlVGaTdVdGJCZkN1N0U4T0ciLCJtYXRlcmlhbFNldFNlcmlhbCI6MX0%3D&branch=main)
 
 
 This is a simple web microservice that accesses wikipedia through wikipedia-api.
