@@ -1,6 +1,8 @@
 install:
 	#installing commands
 	pip install -r requirements.txt
+post-install:
+	python -m textblob.download_corpora
 lint:
 	#lint commands
 format:
