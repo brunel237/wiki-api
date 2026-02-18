@@ -23,3 +23,8 @@ def test_end():
     assert response.json() == {
         "message": "Bye"
     }
+
+def test_cicd():
+    response = client.get("/cicd")
+    assert response.status_code == 200
+    assert response.json() == {"message": "CI/CD is active"}
