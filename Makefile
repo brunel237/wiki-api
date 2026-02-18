@@ -13,6 +13,9 @@ test:
 	python -m pytest -vv --cov=mylib --cov=main test_*.py 
 run:
 	#running commands
+build:
+	#build container
+	docker build -t deploy-fastapi .
 deploy:
 	#deploying commands
 all:
