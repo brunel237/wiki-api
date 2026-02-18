@@ -1,4 +1,6 @@
-from mylib.logic import *
+from mylib.logic import wiki
+from mylib.logic import search_wiki
+from mylib.logic import phrase
 
 
 def test_wiki():
