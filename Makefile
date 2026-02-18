@@ -10,7 +10,7 @@ lint:
 	#flake8 or #pylint
 	pylint --disable=R,C *.py */*.py
 test:
-	python -m pytest -vv --cov=mylib --cov=test 
+	python -m pytest -vv --cov=mylib --cov=main test_*.py 
 run:
 	#running commands
 deploy:
