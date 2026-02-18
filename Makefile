@@ -7,6 +7,7 @@ lint:
 	#lint commands
 format:
 	#code formatting commands
+	black */*.py
 test:
 	#testing code
 run:
