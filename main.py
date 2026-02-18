@@ -39,5 +39,10 @@ async def phrase(name: str):
 async def end():
     return {"message": "Bye"}
 
+# Added this function to confirm the pipeline is active
+@app.get("/cicd")
+async def end():
+    return {"message": "CI/CD is active"}
+
 if __name__ == "__main__":
     uvicorn.run(app, port=8080, host="0.0.0.0")
