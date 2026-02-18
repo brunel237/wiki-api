@@ -2,7 +2,7 @@
 devops-project-1: Wikipedia web api.
 
 badges:
-
+[![Wiki web API with Github Actions](https://github.com/brunel237/wiki-api/actions/workflows/devops.yml/badge.svg)](https://github.com/brunel237/wiki-api/actions/workflows/devops.yml)
 
 This is a simple web microservice that accesses wikipedia through wikipedia-api.
 
