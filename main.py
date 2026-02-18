@@ -41,7 +41,7 @@ async def end():
 
 # Added this function to confirm the pipeline is active
 @app.get("/cicd")
-async def end():
+async def cicd():
     return {"message": "CI/CD is active"}
 
 if __name__ == "__main__":
