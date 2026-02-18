@@ -3,13 +3,14 @@ install:
 	pip install -r requirements.txt
 post-install:
 	python -m textblob.download_corpora
-lint:
-	#lint commands
 format:
 	#code formatting commands
 	black */*.py
+lint:
+	#flake8 or #pylint
+	pylint --disable=R,C *.py */*.py
 test:
-	#testing code
+	python -m pytest -vv --cov=mylib --cov=test 
 run:
 	#running commands
 deploy:
