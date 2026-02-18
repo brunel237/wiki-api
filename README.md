@@ -32,3 +32,10 @@ Issues encountered:
 - pylint caught unused imports :
 <img width="1341" height="508" alt="Bildschirmfoto vom 2026-02-18 14-43-02" src="https://github.com/user-attachments/assets/eceba520-2747-4b55-9f41-572fbd43dde2" />
 
+Running:
+- Locally:
+      - alternative 1: download the project, install requirements (in virtual environment), run the app with the command "python main.py" (in the project's root directory)
+      - alternative 2: download the project, build the docker image with the command "docker build ." (in the project's root directory), run the container with the command "docker run <image>"
+- Online:
+- 
+- Online
